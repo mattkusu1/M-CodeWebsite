@@ -1,0 +1,165 @@
+body {
+    background: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Trebuchet MS';
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER FEATURES */
+
+header {
+    background-image: url("images/headerbackground.gif");
+    background-color: blue;
+    padding: 1px;
+    box-shadow: black 10px 10px 25px;
+}
+
+header .logo a {
+    animation: fade-down 0.5s 0.4s backwards;
+    background-image: url("images/logo.png");
+    background-size: 150px;
+    background-position: center;
+    display: inline-block;
+    text-indent: -9999999px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul.links {
+    text-align: center;
+    text-indent: center;
+    height: 10px;
+}
+
+li {
+    display: inline-block;
+    padding: 1px;
+    margin-inline-end: 5cap;
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0%;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100% {
+        opactiy: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-down {
+    0% {
+        opacity: 0%;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100% {
+        opactiy: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    animation: fade-down 0.5s;
+}
+
+/* TEXT DECOR */
+
+ul.links a {
+    color: white;
+    animation: fade-down 1s;
+}
+
+ul.links a:hover {
+    text-decoration: underline white;
+}
+
+/* PROJECT DIVS */
+
+section.allfeature-box {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: rgb(158, 204, 250);
+}
+
+section.allfeature-box a {
+    color: rgb(158, 204, 250);
+}
+
+section.feature-box1 {
+    display: block;
+}
+
+section.feature-box1 div {
+    animation: fade-down 1s;
+    background-image: url("images/calculator.jpg");
+    background-size: 200px;
+    background-position: center;
+    box-shadow: black 10px 10px 10px;
+    text-shadow: black 10px 10px 10px;
+    text-align: center;
+    border: gray 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+section.feature-box2 {
+    display: block;
+}
+
+section.feature-box2 div {
+    animation: fade-down 1s;
+    background-image: url("images/TicTacToe.jpeg"); 
+    background-size: 200px;
+    background-position: center;
+    box-shadow: black 10px 10px 10px;
+    text-shadow: black 10px 10px 10px;
+    text-align: center;
+    border: rgb(255, 255, 255) 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+section.feature-box3 {
+    display: block;
+}
+
+section.feature-box3 div {
+    animation: fade-down 1s;
+    background-image: url("images/Blackjack.png");
+    background-size: 200px;
+    background-position: center;
+    box-shadow: black 10px 10px 10px;
+    text-shadow: black 10px 10px 10px;
+    text-align: center;
+    border: gray 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+/* FOOTER */
+
+footer {
+    background: white;
+    padding: 10px 20px;
+}
